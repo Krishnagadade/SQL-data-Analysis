@@ -111,7 +111,7 @@ select * from store limit 10
 select count(*) AS US_Count 
 from store 
 where country = 'United States'
-/* This row isn't important for modeling purposes, but important for auto-generating latitude and longitude on Tableau. So, We won't drop it.*/
+
 
 /* PRODUCT LEVEL ANALYSIS*/
 /* What are the unique product categories? */
